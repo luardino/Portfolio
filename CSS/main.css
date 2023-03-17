@@ -66,14 +66,14 @@ main figure img:hover{
 }
 .text h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
     color: #F9F9F9;
     line-height: 5.4rem;
 }
 .text span{
     font-family: 'Poppins', sans-serif;
-    font-size: 4.2rem;
+    font-size: 3.5rem;
     font-weight: 500;
     line-height: 5.4rem;
     display: block;
@@ -88,12 +88,13 @@ main figure img:hover{
 .action{
     display: flex;
     gap: 2.5rem;
+    padding-top: 35px;
 }
 .action a{
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 500;
-    color: #00e0ff;
+    color: #ffffff;
     padding: 1.2rem 2.7rem;
     background-image: linear-gradient(90deg, rgba(111, 88, 164, 0.8) .2%, #00e0ff 100%);
     display: flex;
