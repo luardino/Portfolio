@@ -5,34 +5,6 @@ main{
     justify-content: space-between;
 }
 
-main .main-content{
-    display: flex;
-    flex-direction: column;
-}
-
-main .main-content h2{
-    margin-bottom: 2%;
-    font-size: 2.2em;
-}
-
-main .main-content .text{
-    margin-bottom: 10%;
-}
-
-main .main-content .text p{
-    width: 73%;
-    font-size: 1.2em;
-    font-weight: 300;
-}
-
-main .techs .cards-container{
-    display: flex;
-    align-items: center;
-}
-main .techs .cards-container .card img{
-    width: 80px;
-}
-
 main figure img{
     width: 400px;
     height: 400px;
@@ -63,7 +35,7 @@ main figure img:hover{
 }
 .text p{
     font-family: 'DM Sans', sans-serif;
-    font-size: 2 rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #828282;
 }
@@ -92,14 +64,14 @@ main figure img:hover{
 .actions a:hover {
     transform: scale(0.95)
 }
-.about{
+.about {
     font-family: 'poppins', sans-serif;
     font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about, p {
+.about p {
     color: #828282;
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
@@ -120,9 +92,10 @@ main figure img:hover{
 .techs .cards .box{
     position: relative;
     text-align: center;
-    background-color: #2c2928;
-    padding: 1.7rem 4.2rem 3.7rem 4.2rem;
+    background-color: #222;
+    padding: 1.2rem 3rem 1rem 3rem;
     border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
     cursor: pointer;
     transition: .2s
 }
