@@ -4,19 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
-/*.container{
-    margin-right: auto;
-    margin-left: auto;
-}*/
 body{
-    width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: #13131f;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 a{
     text-decoration: none;
