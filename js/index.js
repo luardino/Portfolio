@@ -1,3 +1,11 @@
+const upArrow = document.querySelector('.up-arrow');
+upArrow.addEventListener('click', function(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+})
+
 const initAnimation = () => {
     const title = document.querySelector('main .text h1');
     const span = document.querySelector('main .text span');

@@ -3,6 +3,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 14em;
 }
 
 main figure img{
@@ -17,6 +18,9 @@ main figure img{
 main figure img:hover{
     box-shadow: 0px 0px 6px #00e0ff;
     transform: scale(1.1);
+}
+.about-me{
+    padding-bottom: 22em;
 }
 .main-content h2{
     display: flex;
@@ -185,9 +189,15 @@ main figure img:hover{
   transform: scale(1.1)
 }
 
-.up-arrow{
-    display: flex;
-    justify-content: flex-end;
+.up-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+.up-arrow:hover{
+    cursor: pointer;
+    transform: scale(0.95);
 }
 .projects{
     display: none;
