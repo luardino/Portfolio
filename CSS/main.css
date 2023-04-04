@@ -96,20 +96,27 @@ main figure img:hover{
     color: #F9F9F9;
     font-weight: 600;
 }
-.techs .cards{
+.overflow{
+    max-width: 1120%;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+.cards{
     display: flex;
     align-items: center;
     gap: 5rem;
 }
-.techs .cards .box{
+.cards .box{
     position: relative;
     text-align: center;
     background-color: #222;
     padding: 1.2rem 3rem 1rem 3rem;
     border-top-left-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
     border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
     cursor: pointer;
-    transition: .2s
+    transition: .2s;
 }
 
 .cards .box p{
@@ -135,8 +142,53 @@ main figure img:hover{
     transform: scale(1.1)
 }
 
+.cards-2 {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  padding-top: 3em;
+}
+
+.cards-2 .box {
+  position: relative;
+  text-align: center;
+  background-color: #222;
+  padding: 1.2rem 3rem 1rem 3rem;
+  border-top-left-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.cards-2 .box p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #00e0ff;
+  margin-bottom: 1.5rem
+}
+
+.cards-2 .box::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: .1rem;
+  background-image: linear-gradient(90deg, #00e0ff 0%, #432e4c 92.32%);
+  bottom: .1rem;
+  left: 0;
+}
+
+.cards-2 .box:hover {
+  transform: scale(1.1)
+}
 
 .up-arrow{
     display: flex;
     justify-content: flex-end;
+}
+.projects{
+    display: none;
 }
