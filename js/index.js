@@ -1,3 +1,12 @@
+const mode = documentrySelectorAll('.mode');
+function mode() {
+  document.body.classList.toggle('white-mode');
+}
+
+mode.forEach(btn => {
+  btn.addEventListener('click', mode);
+});
+
 const upArrow = document.querySelector('.up-arrow');
 upArrow.addEventListener('click', function(){
     window.scrollTo({

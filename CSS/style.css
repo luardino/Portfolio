@@ -11,6 +11,12 @@ body{
     background: #13131f;
     color: #fff;
 }
+
+.white-mode body {
+  background-color: #fff;
+  color: #13131f;
+}
+
 a{
     text-decoration: none;
     color: #fff;

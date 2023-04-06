@@ -3,7 +3,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 14em;
+    padding-bottom: 12em;
 }
 
 main figure img{
@@ -20,7 +20,7 @@ main figure img:hover{
     transform: scale(1.1);
 }
 .about-me{
-    padding-bottom: 22em;
+    padding-bottom: 20em;
 }
 .main-content h2{
     display: flex;
